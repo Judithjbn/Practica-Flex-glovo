@@ -358,7 +358,9 @@ mark {
   }
 
   main {
+    overflow: hidden;
     width: 100%;
+    border-radius: 0px; 
   }
 
   aside {
@@ -376,8 +378,15 @@ mark {
 
   .store-content_sections {
     display: none;
-  }
+  } 
+  
+  .content-store{
+    padding: 0px ;
+  } 
 
+   .client-img{
+     margin-top: 0px;
+   } 
 }
 
 @media screen and (max-width: 1230px)) {
